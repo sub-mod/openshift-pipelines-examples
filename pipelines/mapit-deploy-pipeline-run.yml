@@ -7,8 +7,6 @@ spec:
   serviceAccount: pipeline
   pipelineRef:
     name: deploy-pipeline
-  trigger:
-    type: manual
   resources:
   - name: app-git
     resourceRef:
